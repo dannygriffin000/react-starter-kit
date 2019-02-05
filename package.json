@@ -54,7 +54,7 @@
     "babel-eslint": "^8.2.3",
     "babel-jest": "^23.0.1",
     "babel-loader": "^7.1.4",
-    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "browser-sync": "^2.24.4",
     "chokidar": "^2.0.4",
     "css-loader": "^0.28.11",
