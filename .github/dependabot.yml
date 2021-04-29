@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@babel/preset-flow"
+    versions:
+    - 7.12.1
+    - 7.12.13
+  - dependency-name: "@babel/plugin-transform-react-inline-elements"
+    versions:
+    - 7.12.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  - dependency-name: react-dev-utils
+    versions:
+    - 5.0.2
